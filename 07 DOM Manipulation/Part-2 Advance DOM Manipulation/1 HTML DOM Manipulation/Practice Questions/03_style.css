@@ -1,0 +1,12 @@
+.box {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.div-class {
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}

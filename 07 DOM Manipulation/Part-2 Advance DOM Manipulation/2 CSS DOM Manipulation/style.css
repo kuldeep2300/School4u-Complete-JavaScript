@@ -1,0 +1,11 @@
+.box {
+    padding: 20px;
+    color: yellow;
+    background-color: black;
+}
+
+.box-2 {
+    padding: 40px;
+    color: black;
+    background-color: yellow;
+}

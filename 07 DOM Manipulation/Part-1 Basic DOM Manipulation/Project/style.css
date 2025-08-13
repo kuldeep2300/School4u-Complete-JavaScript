@@ -1,0 +1,25 @@
+p {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 5px solid black;
+  margin: 30px;
+}
+
+button {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.rotate {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

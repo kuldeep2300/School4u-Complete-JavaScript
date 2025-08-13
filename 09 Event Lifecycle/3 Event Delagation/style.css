@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 60px;
+    background-color: lightblue;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
