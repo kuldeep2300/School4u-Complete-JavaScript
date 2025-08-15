@@ -74,7 +74,7 @@ numberContainer.addEventListener("click", (event) => {
       scoreValue.innerText = sv;
       console.log(sv);
     }
-
+    
     generateTarget();
   }
 });
