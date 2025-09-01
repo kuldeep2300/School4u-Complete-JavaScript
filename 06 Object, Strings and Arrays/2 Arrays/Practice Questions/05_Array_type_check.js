@@ -3,15 +3,18 @@
 // let test = 2;
 //* Array.isArray() method
 
-let test = ['manas'];
+let test = ["manas"];
 let result = Array.isArray(test);
 console.log(result);
 
 //* Array.form() method
-let str = 'Kuldeep Verma';
+let str = "Kuldeep Verma";
 let series = Array.from(str);
 console.log(series);
 
+let arrayByStrMethod = str.split("");
+console.log(arrayByStrMethod);
+
 // If we try to covert an object into an array
-let object = [];
+let object = {};
 console.log(Array.from(object)); // we get an empty array

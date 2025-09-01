@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Sidebar</title>
+    <style>
+        .sidebar {
+            width: 10rem;
+            height: 100vh;
+            background-color: antiquewhite;
+            position: fixed;
+            top: 0;
+            left: 0;
+            transform: translateX(-100%);
+            transition: all ease-in-out 0.5s;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .showSidebar {
+            transform: translate(0%);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        Navbar
+        <button>Toogle</button>
+    </nav>    
+
+    <div class="sidebar">
+        Sidebar
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

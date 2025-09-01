@@ -2,10 +2,11 @@
 
 const p = document.createElement('p');
 p.innerText = 'mai tumse pyar nahi karta hun';
-p.setAttribute('style', 'background-color: black; color: green; padding : 20px');
+// p.setAttribute('style', 'background-color: black; color: green; padding : 20px');
 
-// const div = document.querySelector('div');
-// div.append(p);
+p.style.cssText = 'background-color: yellow; font-size: 20px;'
+const div = document.querySelector('div');
+div.append(p);
 
 const body = document.querySelector('body');
 body.append(p)

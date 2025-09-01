@@ -31,7 +31,8 @@ function handleAddBtn(event) {
 }
 
 function handleDelete(id) {
-  let index = lists.filter((item) => item.id === id);
+  let index = lists.findIndex((item) => item.id === id);
+  console.log(index);
   if (index !== -1) {
     lists.splice(index, 1); // remove from array
   }

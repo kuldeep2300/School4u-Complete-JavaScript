@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Closest Ancestor</title>
+    <style>
+      #grand-parent {
+        padding: 20px;
+        background-color: red;
+      }
+      #parent {
+        padding: 10px;
+        background-color: pink;
+      }
+
+      #child {
+        padding: 5px;
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent" id="grand-parent">
+      GRANDPARENT
+      <!-- <div class="parent" id="parent"> -->
+      <!-- If class not present then it will return grandparent -->
+      <div id="parent">
+        PARENT
+        <div id="child">CHILD</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

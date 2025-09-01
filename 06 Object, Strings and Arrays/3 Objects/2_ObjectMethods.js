@@ -1,11 +1,11 @@
 //* 1) Object.keys(object) - Get all keys
 
-// let obj = {
-//   name: "Kuldeep Verma",
-//   age: 21,
-//   isMarried: false,
-//   profession: "btech",
-// };
+let obj = {
+  name: "Kuldeep Verma",
+  age: 21,
+  isMarried: false,
+  profession: "btech",
+};
 
 // let keys = Object.keys(obj);
 // console.log(keys);
@@ -57,7 +57,7 @@
 // delete obj.age;
 
 //  Nothing is changed - here we only freeze object properties and methods but we can directly change the object because it is created using let
-// obj = 'Kuldeep';    // Output : Kuldeep (if we assing usign const than it will give error but usign const doesn't mean we can't change the object properties we can easily change object properties directly)
+// obj = 'Kuldeep';    // Output : Kuldeep (if we assing usign const than it will give error but using const doesn't mean we can't change the object properties we can easily change object properties directly)
 
 // console.log(obj);
 
@@ -80,11 +80,11 @@
 
 //* 7) ObjName.hasOwnProperty(key) : Return Boolean result, check object have specified key or not, doesn't modify original object.
 
-let obj = {
-  name: "Kuldeep Verma",
-  age: 21,
-  isMarried: false,
-  profession: "btech",
-};
+// let obj = {
+//   name: "Kuldeep Verma",
+//   age: 21,
+//   isMarried: false,
+//   profession: "btech",
+// };
 
-console.log(obj.hasOwnProperty("name"));
+// console.log(obj.hasOwnProperty("name"));

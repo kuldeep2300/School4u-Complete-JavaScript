@@ -5,7 +5,8 @@ let b = "kuldeep";
 let c = { name: "kushagra" };
 let d = ['mango', 'apple'];
 
-// let newArr = [a, b, c, ...d];
+let newArr = [a, b, c, ...d];
+console.log(newArr);
 
 //* Using Array.of() method we can make a combination of different data types value into array
 

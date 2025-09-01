@@ -1,9 +1,9 @@
 // Methods
-// //* 1) toUppercase() and toLowercase()
+//* 1) toUppercase() and toLowercase()
 // let str = "     Hello   ";
 // let uppercase = str.toUpperCase();
 // let lowercase = str.toLowerCase();
-// // console.log(str, uppercase, lowercase);
+// console.log(str, uppercase, lowercase);
 
 // //* 2) trim() 
 // let trimmedStr = str.trim();

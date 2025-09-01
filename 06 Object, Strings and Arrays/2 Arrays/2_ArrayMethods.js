@@ -47,7 +47,7 @@ console.log(arr, b); */
 // * 5) join(), includes(), toString(), indexOf(), reverse(), find()
 
 // let arr = ['mango', 'apple', 'lichi']
-// // let test = arr.join(' And ');
+// let test = arr.join(' And ');
 // let test = arr.join();
 
 // console.log(arr);
@@ -74,16 +74,18 @@ console.log(arr, b); */
 // * 6) flat()
 
 // let arr = [1, 2, 3, ['kuldeep', 'kushagra', ['manas', 'lal', ['kumar sahu']]]];
-// // let test = arr.flat();
+// let test = arr.flat();
 // console.log(arr.flat(3));
+// console.log(test);
 
 // * 7) sort()
-let arr = [10, 5, 1, 20];
+/* let arr = [10, 5, 1, 20];
 arr.sort((a, b) => {
     // return a-b; // ascending order
     return b-a; // descending order
 });
 console.log(arr);
+*/
 
-let heroes = ['spiderman', 'batman', 'hawkeye', 'ironman']
-console.log(heroes.sort());
+// let heroes = ['spiderman', 'batman', 'hawkeye', 'ironman']
+// console.log(heroes.sort()); 
